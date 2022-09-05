@@ -1,0 +1,18 @@
+## Introduction ----
+## This is a global file for data generation and processing
+## Author: Erin_707
+
+## Load relevant packages ----
+source(here("r_scripts/utility.R"))
+packages <- c("shiny", "shinydashboard", "tidyverse", "plotly",
+              "ggplot2", "DT", "scales", "here", "learningtower",
+              "readxl", "janitor", "corrr", "psych")
+
+for(i in seq_along(packages)) {
+  require_package(packages[[i]])}
+
+
+## Set relevant file paths ----
+## Important to have the correct file struer in the working dir
+data_path <- here("data")
+rds_path <- here("intermediate_data/")
