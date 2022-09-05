@@ -128,4 +128,4 @@ cor_wt <- cor_wt %>%
   inner_join(data_pisa_result_long, by = c("year", "iso3", 'subject')) %>% 
   group_by(year, subject) %>% 
   mutate(rank = rank(-score, ties.method = "min"),
-         score_group = ntile(score, n =)) 
+         score_group = ntile(score, n = 5)) 
