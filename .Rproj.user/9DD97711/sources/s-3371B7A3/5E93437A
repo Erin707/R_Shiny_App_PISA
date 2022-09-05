@@ -1,0 +1,27 @@
+{
+    "id": "5E93437A",
+    "path": "~/Documents/NYC Data Science Bootcamp/R_Shiny/R_Shiny_Project_NYC_Data_Science/r_scripts/process.R",
+    "project_path": "r_scripts/process.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1662282713815.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "130,41",
+        "scrollLine": "95"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1662364252,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1662364252574,
+    "read_only": false,
+    "read_only_alternatives": []
+}
